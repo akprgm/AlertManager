@@ -1,7 +1,7 @@
 {
-  "name": "alertapp",
+  "name": "iocl-alert-manager",
   "version": "1.0.0",
-  "description": "An Electron desktop application for creating scheduled alerts with text-to-speech functionality in multiple languages.",
+  "description": "IOCL Alert Manager - A desktop application for creating and managing scheduled alerts with text-to-speech functionality",
   "main": "src/scripts/main.js",
   "scripts": {
     "start": "electron .",

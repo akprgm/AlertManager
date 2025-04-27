@@ -14,6 +14,7 @@ function createWindow() {
     mainWindow = new BrowserWindow({
         width: 800,
         height: 600,
+        title: 'IOCL: Alert Manager',
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false
