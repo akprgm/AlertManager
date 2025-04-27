@@ -1,6 +1,6 @@
 const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
-const AlertManager = require('./src/scripts/alert-manager');
+const AlertManager = require('./alert-manager');
 
 let mainWindow;
 let alertManager;
@@ -20,7 +20,7 @@ function createWindow() {
         }
     });
 
-    mainWindow.loadFile('src/index.html');
+    mainWindow.loadFile(path.join(__dirname, '../index.html'));
 
     // Send saved alerts to renderer once window is ready
     mainWindow.webContents.on('did-finish-load', () => {

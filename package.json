@@ -2,10 +2,8 @@
   "name": "alertapp",
   "version": "1.0.0",
   "description": "An Electron desktop application for creating scheduled alerts with text-to-speech functionality in multiple languages.",
-  "main": "main.js",
+  "main": "src/scripts/main.js",
   "scripts": {
-    "setup": "node setup.js",
-    "prestart": "node setup.js",
     "start": "electron .",
     "build": "electron-builder"
   },
